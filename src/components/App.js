@@ -46,6 +46,17 @@ function App() {
 
     return (
         <div className=' flex justify-center h-screen bg-gray-500'>
+            <div className='fixed w-80 h-52 bg-gray-300 right-4 top-1/4 rounded-3xl'>
+                <h3 className='ml-4 font-medium'>Guide:</h3>
+                <p className='ml-4 font-medium'>
+                    You can write what will do today in side list! <br />
+                    Type -> press Enter. So easy right ?<br />
+                    Beside it, you can edit and remove work you don't want
+                    anymore.
+                    <br /> Click in the tick or text in list to toggle pending
+                    or completed
+                </p>
+            </div>
             <div className='mt-20 flex flex-col w-2/5'>
                 <h1 className='text-8xl mb-4 text-center'>TODOLIST</h1>
                 <Add handleSub={addItem}></Add>
