@@ -1,7 +1,6 @@
 import Item from './Item';
 import React, { useState } from 'react';
 import Add from './Add';
-import { AiFillBook } from 'react-icons/ai';
 const listItems = [
     { id: 1, title: 'Đi chơi với bạn gái', isComplete: true },
     { id: 2, title: 'Đi mua đồ ăn', isComplete: false },
